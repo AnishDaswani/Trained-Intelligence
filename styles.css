@@ -234,24 +234,6 @@ h2 {
 .rewards-section { text-align: center; }
 .rewards-section > p { color: var(--muted); font-size: 1.15rem; margin-bottom: 1.8rem; }
 
-.rewards {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.reward {
-    padding: 1.5rem 2.5rem;
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--white);
-}
-
-.reward.sticker { background: linear-gradient(135deg, var(--green), var(--cyan)); }
-.reward.credits { background: linear-gradient(135deg, var(--orange), var(--red)); }
-
 .cta-section {
     background: var(--bg-dark);
     border-radius: 16px;
